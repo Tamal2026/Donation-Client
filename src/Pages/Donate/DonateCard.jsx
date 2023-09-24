@@ -3,6 +3,8 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/no-unknown-property */
 
+import { Link } from "react-router-dom";
+
 
 const DonateCard = ({donation}) => {
     const {id,title,category,image} = donation;
@@ -27,13 +29,16 @@ const DonateCard = ({donation}) => {
     </p>
   </div>
   <div className="p-6 pt-0">
-    <button
+  <Link to={'/donations/${id}'} >
+      <button
+    
       className="select-none rounded-lg bg-pink-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
       type="button"
       data-ripple-light="true"
     >
       Read More
-    </button>
+    </button></Link>
+
   </div>
 </div>
         </div>

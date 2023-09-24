@@ -1,5 +1,6 @@
 import MainLayout from "../Layout/MainLayout";
 import Donate from "../Pages/Donate/Donate";
+import Donated from "../Pages/Donate/Donated";
 import Home from "../Pages/Home/Home";
 import Statictics from "../Pages/Statatic/Statictics";
 import { createBrowserRouter } from "react-router-dom";
@@ -23,6 +24,11 @@ const myCreatedRoute = createBrowserRouter([
             {
                 path:'/Stastictics',
                 element:<Statictics></Statictics>
+            },
+            {
+                path:'/donations/:id',
+                element:<Donated></Donated>,
+             loader:()=>fetch('/donations.json')
             }
         ]
     }
