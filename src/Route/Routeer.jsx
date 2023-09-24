@@ -11,10 +11,11 @@ const myCreatedRoute = createBrowserRouter([
         
         children:[
             {
-                path:'/',
-                element: <Home></Home>,
-                // loder:()=> fetch('/info.json')
-            },
+                path: '/',
+                element: <Home />,
+                loader: () => fetch('/info.json')
+            }
+,            
             {
                 path:'/Donate',
         element:<Donate></Donate>
