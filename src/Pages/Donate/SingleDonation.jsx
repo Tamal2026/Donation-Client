@@ -4,7 +4,12 @@
 
 // eslint-disable-next-line react/prop-types
 const SingleDonation = ({donation}) => {
-    const {category,image,description,price} = donation || {};
+    const {category,image,description,price,titleColor} = donation || {};
+    const cardStyle = {
+        backgroundColor: titleColor || "#FFFFFF",
+        
+      }
+
     return (
     <>
     <div>
@@ -19,7 +24,7 @@ const SingleDonation = ({donation}) => {
       src={image}
       alt="ui/ux review check"
     />
-    <button className="">Donate:{price}</button>
+    <button style={cardStyle} className="px-3 py-1 rounded-lg text-white absolute bottom-48 left-56 " >Donate:{price}</button>
   </div>
   <div className="p-6">
     <h4 className="block font-sans text-2xl font-bold leading-snug tracking-normal text-blue-gray-900 antialiased ">
