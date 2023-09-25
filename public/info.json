@@ -3,9 +3,9 @@
     "id": 1,
     "title": "Cloth Donation",
     "titleColor": "#FFD700",
-    "description": "Donate gently used clothes to those in need.",
+    "description": "Donate gently used clothes to those in need. Your clothing donations can make a significant difference in the lives of individuals and families facing hardship. Whether it's warm winter coats, professional attire for job seekers, or everyday clothing for children, your generosity can provide comfort and dignity to those less fortunate. Join us in our mission to clothe the world with kindness.",
     "image": "https://i.ibb.co/NntY77W/donate-clothes-here.jpg",
-    "price": 0,
+    "price": 200,
     "bgColor": "#FFD700",
     "category": "Clothing"
   },
@@ -13,7 +13,7 @@
     "id": 2,
     "title": "Health Donation",
     "titleColor": "#32CD32",
-    "description": "Contribute to healthcare initiatives to improve community health.",
+    "description": "Contribute to healthcare initiatives to improve community health. Your health donations support vital programs that address healthcare disparities, provide access to medical services, and promote wellness education. Your generosity can help build healthier communities and save lives. Together, we can make a lasting impact on public health.",
     "image": "https://i.ibb.co/rcSmdby/Health-Donation.jpg",
     "price": 50,
     "bgColor": "#32CD32",
@@ -23,7 +23,7 @@
     "id": 3,
     "title": "Food Donation",
     "titleColor": "#FF6347",
-    "description": "Provide non-perishable food items for local food banks.",
+    "description": "Provide non-perishable food items for local food banks. Hunger is a pressing issue in many communities. Your food donations can help alleviate hunger by providing essential food supplies to individuals and families in need. Join us in the fight against hunger today and be a part of a brighter, nourished future.",
     "image": "https://i.ibb.co/NrKW7F1/food-Donation.jpg",
     "price": 20,
     "bgColor": "#FF6347",
@@ -33,7 +33,7 @@
     "id": 4,
     "title": "Education Donation",
     "titleColor": "#4169E1",
-    "description": "Support educational programs for underprivileged children.",
+    "description": "Support educational programs for underprivileged children. Education is the key to breaking the cycle of poverty. Your educational donations enable access to quality schooling, educational resources, and opportunities for children who need it most. Help us make a difference in the lives of future generations by investing in education.",
     "image": "https://i.ibb.co/NpB14xZ/education-Donation.jpg",
     "price": 100,
     "bgColor": "#4169E1",
@@ -43,9 +43,9 @@
     "id": 5,
     "title": "Cloth Donation",
     "titleColor": "#FFD700",
-    "description": "Donate gently used clothes to those in need.",
+    "description": "Donate gently used clothes to those in need. Your clothing donations can make a significant difference in the lives of individuals and families facing hardship. Whether it's warm winter coats, professional attire for job seekers, or everyday clothing for children, your generosity can provide comfort and dignity to those less fortunate. Join us in our mission to clothe the world with kindness.",
     "image": "https://i.ibb.co/NntY77W/donate-clothes-here.jpg",
-    "price": 0,
+    "price": 200,
     "bgColor": "#FFD700",
     "category": "Clothing"
   },
@@ -53,7 +53,7 @@
     "id": 6,
     "title": "Health Donation",
     "titleColor": "#32CD32",
-    "description": "Contribute to healthcare initiatives to improve community health.",
+    "description": "Contribute to healthcare initiatives to improve community health. Your health donations support vital programs that address healthcare disparities, provide access to medical services, and promote wellness education. Your generosity can help build healthier communities and save lives. Together, we can make a lasting impact on public health.",
     "image": "https://i.ibb.co/rcSmdby/Health-Donation.jpg",
     "price": 50,
     "bgColor": "#32CD32",
@@ -63,7 +63,7 @@
     "id": 7,
     "title": "Food Donation",
     "titleColor": "#FF6347",
-    "description": "Provide non-perishable food items for local food banks.",
+    "description": "Provide non-perishable food items for local food banks. Hunger is a pressing issue in many communities. Your food donations can help alleviate hunger by providing essential food supplies to individuals and families in need. Join us in the fight against hunger today and be a part of a brighter, nourished future.",
     "image": "https://i.ibb.co/NrKW7F1/food-Donation.jpg",
     "price": 20,
     "bgColor": "#FF6347",
@@ -73,51 +73,51 @@
     "id": 8,
     "title": "Education Donation",
     "titleColor": "#4169E1",
-    "description": "Support educational programs for underprivileged children.",
+    "description": "Support educational programs for underprivileged children. Education is the key to breaking the cycle of poverty. Your educational donations enable access to quality schooling, educational resources, and opportunities for children who need it most. Help us make a difference in the lives of future generations by investing in education.",
     "image": "https://i.ibb.co/NpB14xZ/education-Donation.jpg",
     "price": 100,
     "bgColor": "#4169E1",
     "category": "Education"
   },
-  {
-    "id": 9,
-    "title": "Cloth Donation",
-    "titleColor": "#FFD700",
-    "description": "Donate gently used clothes to those in need.",
-    "image": "https://i.ibb.co/NntY77W/donate-clothes-here.jpg",
-    "price": 0,
-    "bgColor": "#FFD700",
-    "category": "Clothing"
-  },
-  {
-    "id": 10,
-    "title": "Health Donation",
-    "titleColor": "#32CD32",
-    "description": "Contribute to healthcare initiatives to improve community health.",
-    "image": "https://i.ibb.co/rcSmdby/Health-Donation.jpg",
-    "price": 50,
-    "bgColor": "#32CD32",
-    "category": "Healthcare"
-  },
-  {
-    "id": 11,
-    "title": "Food Donation",
-    "titleColor": "#FF6347",
-    "description": "Provide non-perishable food items for local food banks.",
-    "image": "https://i.ibb.co/NrKW7F1/food-Donation.jpg",
-    "price": 20,
-    "bgColor": "#FF6347",
-    "category": "Food"
-  },
-  {
-    "id": 12,
-    "title": "Education Donation",
-    "titleColor": "#4169E1",
-    "description": "Support educational programs for underprivileged children.",
-    "image": "https://i.ibb.co/NpB14xZ/education-Donation.jpg",
-    "price": 100,
-    "bgColor": "#4169E1",
-    "category": "Education"
-  }
-]
- 
+    {
+      "id": 9,
+      "title": "Cloth Donation",
+      "titleColor": "#FFD700",
+      "description": "Donate gently used clothes to those in need. Your clothing donations can make a significant difference in the lives of individuals and families facing hardship. Whether it's warm winter coats, professional attire for job seekers, or everyday clothing for children, your generosity can provide comfort and dignity to those less fortunate. Join us in our mission to clothe the world with kindness.",
+      "image": "https://i.ibb.co/NntY77W/donate-clothes-here.jpg",
+      "price": 200,
+      "bgColor": "#FFD700",
+      "category": "Clothing"
+    },
+    {
+      "id": 10,
+      "title": "Health Donation",
+      "titleColor": "#32CD32",
+      "description": "Contribute to healthcare initiatives to improve community health. Your health donations support vital programs that address healthcare disparities, provide access to medical services, and promote wellness education. Your generosity can help build healthier communities and save lives. Together, we can make a lasting impact on public health.",
+      "image": "https://i.ibb.co/rcSmdby/Health-Donation.jpg",
+      "price": 50,
+      "bgColor": "#32CD32",
+      "category": "Healthcare"
+    },
+    {
+      "id": 11,
+      "title": "Food Donation",
+      "titleColor": "#FF6347",
+      "description": "Provide non-perishable food items for local food banks. Hunger is a pressing issue in many communities. Your food donations can help alleviate hunger by providing essential food supplies to individuals and families in need. Join us in the fight against hunger today and be a part of a brighter, nourished future.",
+      "image": "https://i.ibb.co/NrKW7F1/food-Donation.jpg",
+      "price": 20,
+      "bgColor": "#FF6347",
+      "category": "Food"
+    },
+    {
+      "id": 12,
+      "title": "Education Donation",
+      "titleColor": "#4169E1",
+      "description": "Support educational programs for underprivileged children. Education is the key to breaking the cycle of poverty. Your educational donations enable access to quality schooling, educational resources, and opportunities for children who need it most. Help us make a difference in the lives of future generations by investing in education.",
+      "image": "https://i.ibb.co/NpB14xZ/education-Donation.jpg",
+      "price": 100,
+      "bgColor": "#4169E1",
+      "category": "Education"
+    }
+  ]
+  

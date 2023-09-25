@@ -1,23 +1,31 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/no-unknown-property */
+
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import SingleDonation from "./SingleDonation";
+
+
+
+
+// import SingleDonation from "./SingleDonation";
 
 const Donated = () => {
-    // eslint-disable-next-line no-unused-vars
-    const [phone,setphone] = useState()
-    const {id} = useParams();
-const donations = useLoaderData();
+    const [donation,setdonation] = useState()
+const {id} = useParams();
 
+const donations = useLoaderData();
+console.log(donations);
 
 useEffect(()=>{
-// eslint-disable-next-line no-unused-vars
-const findDonation = donations.find(donation => phone.id === id)
-console.log(findDonation)
-},[id,donations]);
-
+const findDonation = donations.find(donation => donation.id ==id)
+setdonation(findDonation)
+},[donations,id]);
+console.log(donation);
     return (
-        <div>
-            <div>Phone</div>
+        <div >
+         <SingleDonation donation={donation}></SingleDonation>
+
         </div>
     );
 };

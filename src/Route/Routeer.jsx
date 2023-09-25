@@ -4,11 +4,12 @@ import Donated from "../Pages/Donate/Donated";
 import Home from "../Pages/Home/Home";
 import Statictics from "../Pages/Statatic/Statictics";
 import { createBrowserRouter } from "react-router-dom";
-
+import Error from "../Component/Error";
 const myCreatedRoute = createBrowserRouter([
     {
         path:'/',
         element: <MainLayout></MainLayout>,
+        errorElement:<Error></Error>,
         
         children:[
             {
@@ -26,9 +27,9 @@ const myCreatedRoute = createBrowserRouter([
                 element:<Statictics></Statictics>
             },
             {
-                path:'/donations/:id',
+                path:'/info/:id',
                 element:<Donated></Donated>,
-             loader:()=>fetch('/donations.json')
+             loader:()=>fetch('/info.json')
             }
         ]
     }

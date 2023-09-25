@@ -6,7 +6,7 @@ import Donations from "../Donate/Donations";
 
 const Home = () => {
     const donations = useLoaderData();
-    console.log(donations);
+
     return (
         <div>
           
