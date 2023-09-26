@@ -1,8 +1,6 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Project Feature That I added in this Project
+* 1.Added all img and description dynamically
+* 2.The Navbar will be same other part will change according to need
+* 3.And the last one is use pieChart for showing how much donate
+* 4.Adding SweetAleart When card is selected over 1 time
+* 5.Save  donated item to the  local storage and displayed it in the donate route..
