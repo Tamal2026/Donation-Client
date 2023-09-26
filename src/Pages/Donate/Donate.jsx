@@ -38,7 +38,7 @@ const Donate = () => {
                 ))
               )}
             </div>
-            {donates.length >4 && !showAll && ( 
+            {donates.length >=4 && !showAll && ( 
               <div className="ml-40 mt-8">
                 <button
                 className="px-4 py-1 rounded-lg bg-blue-600 text-center text-white"

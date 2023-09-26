@@ -1,6 +1,6 @@
 const Banner = () => {
     const bannerStyle = {
-        backgroundImage: 'url("../../../public/Rectangle 4281.png")',
+        backgroundImage: 'url("https://i.ibb.co/bs9LfPT/Rectangle-4281.png")',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center top',

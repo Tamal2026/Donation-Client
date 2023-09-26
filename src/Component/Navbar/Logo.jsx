@@ -3,7 +3,7 @@
 const Logo = () => {
     return (
         <div>
-          <img src="../../../public/Logo.png" alt="" />
+          <img src="https://i.ibb.co/bgKVRM6/Logo.png" alt="" />
         </div>
     );
 };

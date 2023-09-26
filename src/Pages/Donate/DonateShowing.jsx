@@ -1,16 +1,19 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 
 
-const DonateShowing = ({donate}) => {
+const DonateShowing = ({donate,donation}) => {
   const {category,image,title,price,titleColor,bgColor} = donate || {};
 
   const cardStyle = {
     backgroundColor: bgColor,
     color: titleColor
   }
+ 
+
     return (
         <div>
-            <div style={cardStyle}  className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+            <div style={cardStyle}  className="relative flex w-full max-w-[48rem]  flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
   <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
     <img
       src={image}
@@ -29,7 +32,7 @@ const DonateShowing = ({donate}) => {
      ${price}
     </p>
     <a className="inline-block" href="#">
-      <button  style={{...cardStyle,color:'white'}}
+      <button  style={{...cardStyle,color:'white',backgroundColor:titleColor}}
         className=" items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-md font-bold uppercase text-white l hover:bg-pink-500/10"
         type="button"
       >
@@ -38,6 +41,7 @@ const DonateShowing = ({donate}) => {
           
       </button>
     </a>
+    <div></div>
   </div>
 </div>
         </div>

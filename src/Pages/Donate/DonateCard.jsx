@@ -19,13 +19,13 @@ const DonateCard = ({donation}) => {
    <Link to={`/info/${id}`}>
              <div style={cardStyle} class="relative flex max-w-[24rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
   <div class="relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
-    <img
+    <img className="w-96 h-56 rounded-tl-lg rounded-tr-lg"
       src={image}
       alt="ui/ux review check"
     />
   </div>
   <div class="p-6">
-    <h4 class="block font-bold font-sans text-md leading-snug tracking-normal text-blue-gray-900 antialiased">
+    <h4  style={{...cardStyle,color:'white',backgroundColor:titleColor}} class="block font-bold font-sans py-2 w-24 rounded-md text-center text-md leading-snug tracking-normal text-blue-gray-900 antialiased">
     {donation.category}
     </h4>
     <p style={cardStyle} class="mt-3 block font-sans text-2xl font-semibold leading-relaxed text-gray-700 antialiased">

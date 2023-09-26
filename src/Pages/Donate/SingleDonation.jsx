@@ -36,7 +36,7 @@ const SingleDonation = ({donation}) => {
 
             <div classNameName= " relative flex max-w-[24rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
   <div classNameName="relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
-    <img style={{height:'650px',width:'1200px'}}
+    <img style={{height:'650px',width:'1200px'} } className="rounded-lg"
       src={image}
       alt="ui/ux review check"
     />
