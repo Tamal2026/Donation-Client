@@ -1,10 +1,26 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/no-unknown-property */
 
 
 // eslint-disable-next-line react/prop-types
+import swal from "sweetalert";
 const SingleDonation = ({donation}) => {
-    const {category,image,description,price,titleColor} = donation || {};
+    const {id,category,image,description,price,titleColor} = donation || {};
+    const handleAddToDonate = () => {
+      const donateItem = JSON.parse(localStorage.getItem("donate")) || [];
+      const exists = donateItem.find((item) => item.id === id);
+    
+      if (!exists) {
+        donateItem.push(donation);
+        localStorage.setItem("donate", JSON.stringify(donateItem));
+        swal("Good job!", "You clicked the button!", "success");
+      } else {
+        swal("Sorry!", "You Already Donated this!", "error");
+      }
+    };
+    
+
     const cardStyle = {
         backgroundColor: titleColor || "#FFFFFF",
         
@@ -24,7 +40,7 @@ const SingleDonation = ({donation}) => {
       src={image}
       alt="ui/ux review check"
     />
-    <button style={cardStyle} className="px-3 py-1 rounded-lg text-white absolute bottom-48 left-56 " >Donate:{price}</button>
+    <button onClick={handleAddToDonate} style={cardStyle} className="px-3 py-1 rounded-lg text-white absolute bottom-64 left-56 " >Donate:{price}</button>
   </div>
   <div className="p-6">
     <h4 className="block font-sans text-2xl font-bold leading-snug tracking-normal text-blue-gray-900 antialiased ">

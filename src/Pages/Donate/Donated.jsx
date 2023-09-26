@@ -15,13 +15,13 @@ const Donated = () => {
 const {id} = useParams();
 
 const donations = useLoaderData();
-console.log(donations);
+
 
 useEffect(()=>{
 const findDonation = donations.find(donation => donation.id ==id)
 setdonation(findDonation)
 },[donations,id]);
-console.log(donation);
+
     return (
         <div >
          <SingleDonation donation={donation}></SingleDonation>

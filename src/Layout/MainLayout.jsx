@@ -6,7 +6,7 @@ const MainLayout = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="py-10">
+            <div>
             <Outlet></Outlet>
             </div>
             
