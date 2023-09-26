@@ -5,7 +5,8 @@ import Home from "../Pages/Home/Home";
 
 import { createBrowserRouter } from "react-router-dom";
 import Error from "../Component/Error";
-import { PieChart } from "recharts";
+
+import Statictics from "../Pages/Statatic/Statictics";
 const myCreatedRoute = createBrowserRouter([
     {
         path:'/',
@@ -24,8 +25,8 @@ const myCreatedRoute = createBrowserRouter([
         element:<Donate></Donate>
             },
             {
-                path:'/PieChart',
-                element:<PieChart></PieChart>
+                path:'/Stastictics',
+                element:<Statictics></Statictics>
             },
             {
                 path:'/info/:id',
