@@ -1,35 +1,13 @@
 
-import { Chart } from "react-google-charts";
+import PieChartComponent from './PieChartComponent'; // Adjust the import path as needed
 
-const Statistics = () => {
-  const chartData = [
-    ["Category", "Amount"],
-    ["My Donation", 500], // Replace with your donation amount
-    ["Total Donation", 1000], // Replace with the total donation amount
-  ];
-
-  const pieChartOptions = {
-    title: "Donation Statistics",
-  };
-
+const Statictics = () => {
   return (
     <div>
-      
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <Chart
-          chartType="PieChart"
-          data={chartData}
-          options={pieChartOptions}
-          width={"50%"}
-          height={"400px"}
-        />
-        <div style={{ marginLeft: "20px" }}>
-        
-          
-        </div>
-      </div>
+      <h2 className='text-2xl'>Statistics is not Dynamic</h2>
+      <PieChartComponent></PieChartComponent>
     </div>
   );
 };
 
-export default Statistics;
+export default Statictics;
